@@ -18,12 +18,12 @@ Step 2. Add the dependency
 
 ```
 dependencies {
-	        implementation 'com.github.18872920834:JPay-master:Tag'
+	        implementation 'com.github.18872920834:JPay-master:0.0.4'
 	}
 ```
 例如：版本号为`0.0.4`
 ```
-implementation 'com.github.18872920834:JPay-master:Tag'
+implementation 'com.github.18872920834:JPay-master:0.0.4'
 
 对微信App支付、支付宝App支付、银联App支付的二次封装,对外提供一个相对简单的接口以及支付结果的回调
 
