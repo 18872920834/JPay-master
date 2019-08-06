@@ -2,7 +2,28 @@
 
 # JPay
 
-由于原作者不更新了，支付宝提示需要升级sdk，以下内容原作者的话
+由于原作者不更新了，支付宝提示需要升级sdk，新的引用方法
+### 1、坐标
+
+Step 1. Add it in your root build.gradle at the end of repositories:
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency
+
+```
+dependencies {
+	        implementation 'com.github.18872920834:JPay-master:Tag'
+	}
+```
+例如：版本号为`0.0.4`
+```
+implementation 'com.github.18872920834:JPay-master:Tag'
 
 对微信App支付、支付宝App支付、银联App支付的二次封装,对外提供一个相对简单的接口以及支付结果的回调
 
